@@ -24,6 +24,20 @@
     chmod +x ./kubectl
     sudo mv ./kubectl /usr/local/bin/kubectl
    ```
+   then check below command 
+   aws 
+   out put is below
+   root@ip-172-31-36-6:/home/ubuntu# aws
+Note: AWS CLI version 2, the latest major version of the AWS CLI, is now stable and recommended for general use. For more information, see the AWS CLI version 2 installation instructions at: https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+aws: error: the following arguments are required: command
+
 1. Create an IAM user/role  with Route53, EC2, IAM and S3 full access
 1. Attach IAM role to ubuntu server
 
