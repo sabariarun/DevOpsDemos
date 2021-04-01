@@ -9,6 +9,12 @@
     apt install unzip python
     unzip awscli-bundle.zip
     #sudo apt-get install unzip - if you dont have unzip in your system
+    create shoft link 
+    sudo ln -s /usr/bin/python3 /usr/bin/python
+    run below 
+    apt-get install python3-venvstall python3-venv
+    then run below
+    
     ./awscli-bundle/install -i /usr/local/aws -b /usr/local/bin/aws
     ```
     
